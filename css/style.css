@@ -28,17 +28,6 @@ nav ul li a{
 }
 
 /*HEADER*/
-#accedi a{
-  background-color: #ffff;
-  padding: 10px;
-  border-radius: 50px;
-  text-decoration: none;
-  text-align: center;
-  font-size: small;
-  font-weight: 600;
-  color: black;
-}
-
 header{
   background-color: #3161e0;
   padding: 2px;
@@ -54,6 +43,33 @@ header nav ul li{
   margin-left: 10%;
 }
 
+.button{
+  text-align: center;
+}
+
+.button.centrali{
+  margin-top: 30px;
+}
+
+.button a{
+  padding: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  text-align: center;
+  font-size: small;
+  font-weight: 600;
+}
+
+.small-button a{
+  background-color: #ffff;
+  color: black;
+}
+
+.big-button a{
+  background-color: black;
+  color: white;
+}
+
 .container-nav{
   display: flex;
   justify-content:space-between;
@@ -65,7 +81,7 @@ header nav ul li{
 .container-jumbotron{
   background-image: url(../img/jumbo.png);
   background-size: cover;;
-  padding: 5%;
+  padding: 10%;
   margin-top: 1%;
 }
 
@@ -76,28 +92,38 @@ header nav ul li{
   margin: 0 auto;
 }
 
-/*MAIN*/
-.title{
+.jumbotron-title{
   font-family:  "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: xx-large;
   font-weight: 800;
   text-align: center;
-  margin-top: 2%;
-  margin-bottom: 5%;
-
+  margin: 10px;
 }
 
+.section-text{
+  text-align: center; 
+  word-spacing: 0.2rem;
+}
+
+/*MAIN*/
 .img{
-  background-color: #1e90ff;
-  width: 15%;
+  
+  width: 25%;
   padding: 10%;
   border:1px dashed black;
 }
 
 .text{
-  text-align: center; 
-  
-  
+  width: 12.5%;
+  padding: 10%;
+  background-color: #f08080;
+}
+
+.title{
+  font-size: x-large;
+  font-weight: 800;
+  text-align: center;
+  margin: 10px;
 }
 
 .container-discord{
