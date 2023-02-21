@@ -107,25 +107,23 @@ header nav ul li{
 
 /*MAIN*/
 .img{
-  
-  width: 25%;
-  padding: 10%;
-  border:1px dashed black;
+  width: 40%;
+  padding: 4%;;
 }
 
 .text{
-  width: 12.5%;
-  padding: 10%;
-  background-color: #f08080;
+  width: 20%;
+  padding: 2%;
 }
 
 .title{
-  text-align: justify;
   font-size: x-large;
   font-weight: 800;
   display: flex;
-  justify-content: flex-start;
+  }
 
+.description{
+margin-top: 15px;
 }
 
 .container-discord{
