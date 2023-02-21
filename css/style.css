@@ -120,10 +120,12 @@ header nav ul li{
 }
 
 .title{
+  text-align: justify;
   font-size: x-large;
   font-weight: 800;
-  text-align: center;
-  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+
 }
 
 .container-discord{
