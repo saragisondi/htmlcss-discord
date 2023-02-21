@@ -1,0 +1,171 @@
+/*GENERAL*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box 0;
+}
+
+body{
+font-family:"gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container{
+  width: 90%;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav ul li a{
+  color: #ffff;
+}
+
+/*HEADER*/
+#accedi a{
+  background-color: #ffff;
+  padding: 10px;
+  border-radius: 50px;
+  text-decoration: none;
+  text-align: center;
+  font-size: small;
+  font-weight: 600;
+  color: black;
+}
+
+header{
+  background-color: #3161e0;
+  padding: 2px;
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li{
+  margin-left: 10%;
+}
+
+.container-nav{
+  display: flex;
+  justify-content:space-between;
+  width: 90%;
+  height:100%;
+  margin-top: 2%;
+}
+
+.container-jumbotron{
+  background-image: url(../img/jumbo.png);
+  background-size: cover;;
+  padding: 5%;
+  margin-top: 1%;
+}
+
+.jumbotron-text{
+  font-family:  "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  color: #ffff;
+  width:60% ;
+  margin: 0 auto;
+}
+
+/*MAIN*/
+.title{
+  font-family:  "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: xx-large;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+
+}
+
+.img{
+  background-color: #1e90ff;
+  width: 15%;
+  padding: 10%;
+  border:1px dashed black;
+}
+
+.text{
+  text-align: center; 
+  
+  
+}
+
+.container-discord{
+  padding:2.5%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-discord.white{
+  background-color: #ffff;
+}
+
+.container-discord.grey{
+  background-color: #d3d3d3;
+}
+
+.main-text {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffc0cb;
+  width: 50%;
+  border:1px dashed black;
+}
+
+.CTA{
+  background-color: #228b22;
+  width: 20%;
+  padding: 20%;
+
+}/*FOOTER*/
+footer{
+  background-color: black;
+  color: white;
+}
+
+.container-footer {
+  display: flex;
+  align-items: stretch;
+  max-width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.container-footer > div {
+  background-color: #20b2aa;
+  width: 11%;
+  min-height: 500px;
+  border: 2px dashed white;
+  margin-bottom: 30px;
+}
+
+.container-footer > div:first-child {
+  background-color: #f08080;
+  width: 20%;
+  border: 2px dashed black;
+}
+
+.link{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: #7fffd4;
+  color: black;
+}
+
+.link > div{
+  background-color:#f08080 ;
+  width: 5%;
+  text-align: center;
+  border: 2px dashed black;
+}
