@@ -21,6 +21,12 @@ img{
 
 a{
   text-decoration: none;
+  
+}
+
+li{
+  list-style: none;
+  
 }
 
 nav ul li a{
@@ -40,7 +46,11 @@ header nav ul{
 }
 
 header nav ul li{
-  margin-left: 10%;
+  padding: 0 30px;
+}
+
+nav{
+  width: 100%;
 }
 
 .button{
@@ -113,21 +123,23 @@ header nav ul li{
 
 .text{
   width: 20%;
-  padding: 2%;
+  padding: 6%;
 }
 
 .title{
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 800;
   display: flex;
   }
 
 .description{
-margin-top: 15px;
+  font-size: medium;
+  font-weight: 500;
+  margin-top: 15px;
+  word-spacing: 0.2rem;
 }
 
 .container-discord{
-  padding:2.5%;
   display: flex;
   justify-content: center;
 }
@@ -140,58 +152,88 @@ margin-top: 15px;
   background-color: #d3d3d3;
 }
 
+.container-discord.grey .js{
+  background-color: #d3d3d3;
+  max-height: 100%;
+  margin-bottom: 10%;
+}
+
+.main-title{
+  font-size: xx-large;
+  font-weight: 800; 
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 .main-text {
   margin: 0 auto;
   text-align: center;
-  background-color: #ffc0cb;
-  width: 50%;
-  border:1px dashed black;
+  width: 65%;
+  padding-bottom:15px;
+  background-color:#d3d3d3 ;
 }
 
-.CTA{
-  background-color: #228b22;
-  width: 20%;
-  padding: 20%;
+.container-cta{
+  text-align: center;
+  background-color:#d3d3d3 ;
+  padding-bottom: 5%;
+}
 
-}/*FOOTER*/
+
+.small-button.cta a{
+  background-color: #8ea1e1;
+  color:#ffff;
+}
+
+
+/*FOOTER*/
 footer{
-  background-color: black;
+  background-color: #23272a;
   color: white;
 }
 
 .container-footer {
   display: flex;
   align-items: stretch;
-  max-width: 90%;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 45px 0px;
   justify-content: center;
 }
 
 .container-footer > div {
-  background-color: #20b2aa;
   width: 11%;
   min-height: 500px;
-  border: 2px dashed white;
-  margin-bottom: 30px;
+  margin-top: 80px;
 }
 
 .container-footer > div:first-child {
-  background-color: #f08080;
-  width: 20%;
-  border: 2px dashed black;
+  width: 30%;
+}
+
+.place{
+  font-size: xx-large;
+  font-weight: 800;
+  color: #8ea1e1;
 }
 
 .link{
   display: flex;
   justify-content: space-between;
   padding: 5px;
-  background-color: #7fffd4;
   color: black;
 }
 
 .link > div{
-  background-color:#f08080 ;
   width: 5%;
   text-align: center;
-  border: 2px dashed black;
+}
+
+footer li{
+  color: #ffff;
+  margin:5%;
+}
+
+footer ul li:first-child{
+  color:#8ea1e1;
+  text-decoration: none;
 }
