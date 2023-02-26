@@ -40,7 +40,7 @@ li a{
 header{
   background-image: url("../img/jumbo.png");
   background-size: cover;
-  height: 400px;
+  height: 455px;
 }
 
 header .container-nav{
@@ -48,6 +48,7 @@ header .container-nav{
   justify-content: space-around;
   text-align: center;
   padding: 5px;
+  width: 90%;
 }
 
 header .button a{
@@ -83,4 +84,15 @@ header .introduction{
 }
 
 /*MAIN*/
+main .container-discord{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+main .container-discord .introduction{
+  width: 20%;
+  padding-top:30px;
+}
 
