@@ -126,3 +126,28 @@ main .container-discord.big .text{
 main .cta-text{
   margin-top: 50px;
 }
+
+/*FOOTER*/
+footer{
+  background-color:#222222 ;
+}
+
+footer span, a{
+  color: white;
+  font-size: small;
+}
+
+footer .footer-left{
+  width: 20%;
+}
+
+footer .language{
+  margin: 15px 0;
+}
+
+footer .social a{
+  margin: 0 5px;
+}
+footer .language img{
+  width: 20px;
+}
