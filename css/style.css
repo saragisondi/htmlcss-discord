@@ -36,6 +36,33 @@ li a{
   margin: 5px 10px;
 }
 
+p{
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.button a{
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold; 
+}
+
+.button.white a{
+  background-color: #ffff;
+  color: black;
+}
+
+.button.black a{
+  background-color: black; 
+  color: white;
+}
+
+.button.blue a{
+  margin-top: 30px;
+  background-color:#8ea1e1 ;
+  color: white;
+}
+
 /*HEADER*/
 header{
   background-image: url("../img/jumbo.png");
@@ -51,25 +78,6 @@ header .container-nav{
   width: 90%;
 }
 
-header .button a{
-  background-color: #ffff;
-  border: 1px solid black;
-  padding: 5px 10px;
-  border-radius: 15px;
-  color: black;
-  font-weight: bold; 
-}
-
-header .button-black a{
-  background-color: black; 
-  border: 1px solid black;
-  padding: 5px 10px;
-  padding: 5px 10px;
-  border-radius: 15px;
-  color: white;
-  font-weight: bold;
-}
-
 header .container-introduction{
   margin: 50px auto;
   text-align: center;
@@ -81,23 +89,40 @@ header .container-introduction{
 
 header .introduction{
   margin-bottom: 20px;
+  font-weight: bold
 }
 
 /*MAIN*/
 main .container-discord{
   display: flex;
   width: 80%;
-  margin: 0 auto;
+  margin: 100px auto;
   justify-content: center;
-  padding-top: 100px;
+  padding-top:100px;
 }
 
 main .container-discord .introduction{
-  width: 20%;
+  width: 25%;
   padding-top:30px;
 }
 
 main .container-discord.grey{
   background-color: rgb(241, 237, 237);
+  padding-top: 50px;
 }
 
+main .container-discord.big{
+  display: block;
+  text-align: center;
+  margin-top: 200px;
+  padding-bottom: 200px;
+}
+
+main .container-discord.big .text{
+  max-width: 80%;
+  margin: 10px auto;
+}
+
+main .cta-text{
+  margin-top: 50px;
+}
