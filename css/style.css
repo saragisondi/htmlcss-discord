@@ -37,7 +37,7 @@ li a{
 }
 
 p{
-  margin-top: 15px;
+  margin-top: 20px;
   font-weight: 600;
 }
 
@@ -68,6 +68,8 @@ header{
   background-image: url("../img/jumbo.png");
   background-size: cover;
   height: 455px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 header .container-nav{
@@ -79,16 +81,16 @@ header .container-nav{
 }
 
 header .container-introduction{
-  margin: 50px auto;
+  margin: 30px auto;
   text-align: center;
-  max-width: 40%;
+  max-width: 50%;
   font-weight: 500;
   font-size: medium;
   color: #ffff;
 }
 
 header .introduction{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-weight: bold
 }
 
@@ -107,15 +109,16 @@ main .container-discord .introduction{
 }
 
 main .container-discord.grey{
-  background-color: rgb(241, 237, 237);
+  background-color: #e5e5e5;
   padding-top: 50px;
+  margin: 0 auto;
 }
 
 main .container-discord.big{
   display: block;
   text-align: center;
-  margin-top: 200px;
-  padding-bottom: 200px;
+  margin-top: 0px;
+  padding-bottom: 100px;
 }
 
 main .container-discord.big .text{
@@ -127,11 +130,24 @@ main .cta-text{
   margin-top: 50px;
 }
 
+main .waves{
+  background-image: url("../img/wave.svg");
+  padding-bottom: 55px;
+  width: 80%;
+  margin: 0 auto;
+  filter: opacity(0.1);
+}
+
+main .waves.upside-down{
+  transform:rotateX(0.5turn);
+}
+
 /*FOOTER*/
 footer.top{
   background-color:#222222 ;
   height: 300px;
   display: flex;
+  margin-top: 100px;
 }
 
 footer span, a{
@@ -141,7 +157,7 @@ footer span, a{
 
 footer .footer-left{
   width: 25%;
-  margin-top: 50px;
+  margin: 50px 20px;
 }
 
 footer .language{
@@ -167,7 +183,7 @@ footer ul li{
 }
 
 footer .footer-right div{
-  margin: 0 50px;
+  margin: 0 40px;
 }
 
 footer h3, hr{
@@ -186,6 +202,7 @@ footer.bottom{
 footer .footer-bottom{
   display: flex;
   justify-content: space-between;
+  margin: 0 20px;
 }
 
 footer .logo{
