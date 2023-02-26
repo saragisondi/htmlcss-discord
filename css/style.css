@@ -16,7 +16,7 @@ img{
 
 .container{
   width: 1170px;
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -38,7 +38,9 @@ li a{
 
 /*HEADER*/
 header{
-  background-color:#404EED;
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+  height: 500px;
 }
 
 header .container-nav{
@@ -46,15 +48,34 @@ header .container-nav{
   justify-content: space-around;
   text-align: center;
   padding: 5px;
+  position: fixed;
 }
 
-header .button-white a{
+header .button a{
   background-color: #ffff;
   border: 1px solid black;
   padding: 5px 10px;
   border-radius: 15px;
   color: black;
+  font-weight: bold; 
+}
+
+header .button-black a{
+  background-color: black; 
+  border: 1px solid black;
+  padding: 5px 10px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: white;
   font-weight: bold;
-  
+}
+/*MAIN*/
+
+
+header .container-introduction{
+  text-align: center;
+  max-width: 45%;
   
 }
+
+
