@@ -40,7 +40,7 @@ li a{
 header{
   background-image: url("../img/jumbo.png");
   background-size: cover;
-  height: 500px;
+  height: 400px;
 }
 
 header .container-nav{
@@ -48,7 +48,6 @@ header .container-nav{
   justify-content: space-around;
   text-align: center;
   padding: 5px;
-  position: fixed;
 }
 
 header .button a{
@@ -69,13 +68,19 @@ header .button-black a{
   color: white;
   font-weight: bold;
 }
-/*MAIN*/
-
 
 header .container-introduction{
+  margin: 50px auto;
   text-align: center;
-  max-width: 45%;
-  
+  max-width: 40%;
+  font-weight: 500;
+  font-size: medium;
+  color: #ffff;
 }
 
+header .introduction{
+  margin-bottom: 20px;
+}
+
+/*MAIN*/
 
