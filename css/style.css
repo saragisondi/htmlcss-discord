@@ -11,7 +11,7 @@ font-family:"gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-ser
 
 .container{
   width: 90%;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -24,9 +24,8 @@ a{
   
 }
 
-li{
+li {
   list-style: none;
-  
 }
 
 nav ul li a{
@@ -35,7 +34,7 @@ nav ul li a{
 
 /*HEADER*/
 header{
-  background-color: #3161e0;
+  
   padding: 2px;
 }
 
@@ -190,6 +189,11 @@ nav{
 footer{
   background-color: #23272a;
   color: white;
+}
+
+footer ul li a{
+  text-decoration: none;
+  text-decoration-color: none;
 }
 
 .container-footer {
