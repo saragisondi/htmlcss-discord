@@ -88,11 +88,16 @@ main .container-discord{
   display: flex;
   width: 80%;
   margin: 0 auto;
+  justify-content: center;
   padding-top: 100px;
 }
 
 main .container-discord .introduction{
   width: 20%;
   padding-top:30px;
+}
+
+main .container-discord.grey{
+  background-color: rgb(241, 237, 237);
 }
 
